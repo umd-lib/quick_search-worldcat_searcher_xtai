@@ -37,19 +37,6 @@ module Quicksearch
 
     private
 
-    def location(value)
-      location = ''
-      unless value.xpath('*//xmlns:holdingsItem').blank?
-        if value.xpath('*//xmlns:holdingsItem').size > 1
-          location << "Multiple Locations"
-        else
-          holdings_item = value.xpath('*//xmlns:holdingsItem')
-          location << value.xpath('*//xmlns:library').attribute('name')
-          location << " #{holdings_item.at('callNumber').content}"
-        end
-      end
-    end
-
     def base_url
       ARXIV_CONFIG['base_url']
     end
