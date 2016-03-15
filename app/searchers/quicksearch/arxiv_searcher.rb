@@ -16,15 +16,10 @@ module Quicksearch
           result = OpenStruct.new
 
           result.title = title(value)
-          puts result.title
           result.link = link(value)
-          puts result.link
           result.author = author(value)
-          puts result.author
           result.date = published(value)
-          puts result.date
           result.journal_ref = journal(value)
-          puts result.journal_ref
 
           @results_list << result
         end
