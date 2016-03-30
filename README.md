@@ -1,4 +1,4 @@
-# QuicksearchArxivSearcher
+# QuickSearchArxivSearcher
 
 ## Description
 

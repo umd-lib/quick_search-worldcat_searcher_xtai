@@ -1,5 +1,5 @@
-module Quicksearch
-  class ArxivSearcher < Quicksearch::Searcher
+module QuickSearch
+  class ArxivSearcher < QuickSearch::Searcher
 
     def search
       url = base_url + parameters.to_query

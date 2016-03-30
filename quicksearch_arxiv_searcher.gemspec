@@ -6,7 +6,7 @@ require "quicksearch_arxiv_searcher/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "quicksearch_arxiv_searcher"
-  s.version     = QuicksearchArxivSearcher::VERSION
+  s.version     = QuickSearchArxivSearcher::VERSION
   s.authors     = ["Kevin Beswick"]
   s.email       = ["kdbeswic@ncsu.edu"]
   s.homepage    = "http://search.lib.ncsu.edu"

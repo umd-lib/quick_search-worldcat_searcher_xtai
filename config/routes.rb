@@ -1,2 +1,2 @@
-QuicksearchArxivSearcher::Engine.routes.draw do
+QuickSearchArxivSearcher::Engine.routes.draw do
 end
