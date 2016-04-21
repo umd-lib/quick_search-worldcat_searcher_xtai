@@ -32,13 +32,13 @@ module QuickSearch
     end
 
     def loaded_link
-      ARXIV_CONFIG['loaded_link']
+      QuickSearch::Engine::ARXIV_CONFIG['loaded_link']
     end
 
     private
 
     def base_url
-      ARXIV_CONFIG['base_url']
+      QuickSearch::Engine::ARXIV_CONFIG['base_url']
     end
 
     def parameters

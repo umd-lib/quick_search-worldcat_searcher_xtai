@@ -5,4 +5,4 @@ else
   # otherwise load the default config file
   config_file = File.expand_path("../../arxiv_config.yml", __FILE__)
 end
-ARXIV_CONFIG = YAML.load_file(config_file)[Rails.env]
+QuickSearch::Engine::ARXIV_CONFIG = YAML.load_file(config_file)[Rails.env]
