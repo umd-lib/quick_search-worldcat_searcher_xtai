@@ -1,4 +1,4 @@
-# Try to load a local version of the config file if it exists - expected to be in quicksearch_root/config/searchers/catalog_config.yml
+# Try to load a local version of the config file if it exists - expected to be in quick_search_root/config/searchers/catalog_config.yml
 if File.exists?(File.join(Rails.root, "/config/searchers/arxiv_config.yml"))
   config_file = File.join Rails.root, "/config/searchers/arxiv_config.yml"
 else
