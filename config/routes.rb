@@ -1,2 +1,2 @@
-QuicksearchArxivSearcher::Engine.routes.draw do
+QuicksearchWorldCatSearcher::Engine.routes.draw do
 end

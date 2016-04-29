@@ -3,7 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require(*Rails.groups)
-require "quicksearch_arxiv_searcher"
+require "quicksearch_worldcat_searcher"
 
 module Dummy
   class Application < Rails::Application

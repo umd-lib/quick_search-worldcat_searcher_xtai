@@ -1,5 +1,5 @@
 module Quicksearch
-  class ArxivSearcher < Quicksearch::Searcher
+  class WorldCatSearcher < Quicksearch::Searcher
 
     def search
       url = base_url + parameters.to_query
@@ -32,13 +32,13 @@ module Quicksearch
     end
 
     def loaded_link
-      ARXIV_CONFIG['loaded_link']
+      WORLDCAT_CONFIG['loaded_link']
     end
 
     private
 
     def base_url
-      ARXIV_CONFIG['base_url']
+      WORLDCAT_CONFIG['base_url']
     end
 
     def parameters

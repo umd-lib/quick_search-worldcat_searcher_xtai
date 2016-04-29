@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-# Declare your gem's dependencies in quicksearch_arxiv_searcher.gemspec.
+# Declare your gem's dependencies in quicksearch_worldcat_searcher.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec

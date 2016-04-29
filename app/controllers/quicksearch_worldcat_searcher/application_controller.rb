@@ -1,4 +1,4 @@
-module QuicksearchArxivSearcher
+module QuicksearchWorldCatSearcher
   class ApplicationController < ActionController::Base
   end
 end
