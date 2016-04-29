@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount QuicksearchArxivSearcher::Engine => "/quicksearch_arxiv_searcher"
+  mount QuicksearchWorldCatSearcher::Engine => "/quicksearch_worldcat_searcher"
 end
