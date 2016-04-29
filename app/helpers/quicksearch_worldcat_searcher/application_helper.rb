@@ -1,4 +1,4 @@
-module QuicksearchWorldCatSearcher
+module QuicksearchWorldcatSearcher
   module ApplicationHelper
   end
 end

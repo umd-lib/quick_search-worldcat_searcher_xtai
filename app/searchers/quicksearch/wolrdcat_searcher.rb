@@ -1,5 +1,5 @@
 module Quicksearch
-  class WorldCatSearcher < Quicksearch::Searcher
+  class WorldcatSearcher < Quicksearch::Searcher
 
     def search
       url = base_url + parameters.to_query

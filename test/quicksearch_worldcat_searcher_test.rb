@@ -1,7 +1,7 @@
 require 'test_helper'
 
-class QuicksearchWorldCatSearcherTest < ActiveSupport::TestCase
+class QuicksearchWorldcatSearcherTest < ActiveSupport::TestCase
   test "truth" do
-    assert_kind_of Module, QuicksearchWorldCatSearcher
+    assert_kind_of Module, QuicksearchWorldcatSearcher
   end
 end

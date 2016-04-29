@@ -6,7 +6,7 @@ require "quicksearch_worldcat_searcher/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "quicksearch_worldcat_searcher"
-  s.version     = QuicksearchWorldCatSearcher::VERSION
+  s.version     = QuicksearchWorldcatSearcher::VERSION
   s.authors     = ["Xiaoyu Tai"]
   s.email       = ["xtai@umd.edu"]
   s.homepage    = "http://www.lib.umd.edu"

@@ -1,5 +1,5 @@
-module QuicksearchWorldCatSearcher
+module QuicksearchWorldcatSearcher
   class Engine < ::Rails::Engine
-    isolate_namespace QuicksearchWorldCatSearcher
+    isolate_namespace QuicksearchWorldcatSearcher
   end
 end

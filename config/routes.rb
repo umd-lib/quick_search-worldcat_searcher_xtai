@@ -1,2 +1,2 @@
-QuicksearchWorldCatSearcher::Engine.routes.draw do
+QuicksearchWorldcatSearcher::Engine.routes.draw do
 end
